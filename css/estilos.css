@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 209, 162);
+}
+
+.cabecera{
+    background-color: darkolivegreen;
+    
+}
+
+.logo{
+	top: 50px;
+    margin-left: 60px;
+	left:200px;
+    width:100px;
+	height:100px;
+}
+
+
+.sticky {
+    position:sticky;
+    top:0;
+    left: 0%;
+    width: 100%;
+    background-color: darkolivegreen;
+    padding: 8px;
+    border:15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+h1{
+    font-size: 50px;
+    color:rgb(214, 221, 235);
+    margin: 30px;
+    text-align: center;
+}
+
+.sticky ul{
+    display: flex;
+    list-style-type: none ;
+    /*flex-direction: row; hay algo mal, pq no los lleva a la derecha*/
+    text-decoration: none;
+    gap: 30px;  
+}
+
+.sticky ul li a{color: #fff;}
+
+
+li a{
+    text-decoration:none;
+    margin-right: 20px;
+
+}
+
+/*Propiedad dada por Juan para el contenedor de fichas*/
+.contenedor-fichas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px;
+} 
+.botonera_distritos{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.botonera_distritos a{
+    display: inline-block;
+    padding: 10px 18px;
+    background: #e995d7;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    gap: 100px;
+}
+.botonera_distritos a:hover{
+    background: #63034e;
+}
+
+.ficha-1, .ficha-2, .ficha-3 {
+    border:1px solid black;
+    background-color: antiquewhite;
+    padding: 60px;
+}
+
+
+.lista-distritos{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+p {
+    color:#63034e;
+    text-align: center;
+    line-height: 1.5;
+}
+p::first-letter{
+    font-size: 2em; ;
+}
+.leer_mas{
+    display: inline-block;
+    padding: 10px 18px;
+    background: #df33b9;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: oblique;
+    border-radius: 30px;
+    gap: 100px;
+    margin-left: 40%;
+}
+
+.leer_mas:hover{
+    background: #421fe0;
+
+}
+
+div.flecha{
+    margin-left: 50%;
+}
+
+a[href="url-del-aviso"] {color:#b9ddf1}
+
+#mi-fondo{
+	background-color:darkslategray;
+    border:2px solid;
+    text-align: center;
+    position: relative;
+    padding: 50px;
+    
+}
+.footer{
+    text-align: center;
+    color:white;
+}
+
+.plato_negro{
+    position: absolute;
+    bottom: 50px;
+	left:70px;
+    width:100px;
+	height:100px;
+}
